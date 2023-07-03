@@ -1,0 +1,164 @@
+html{
+    background-color: #303030;
+    color: #ddc331;
+}
+
+header{
+    background-color: #303030;
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 5px;
+    z-index: 100;
+}
+
+nav{
+    /* float: left; */
+    background-color: #4a4a4a;
+    border-radius: 30px;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+nav ul li:hover{
+    background: #eca023;
+}
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.sec1{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
+
+.uno{
+    /* border: solid 2px red; */
+    width: 500px;
+    height: 300px;
+    rotate: 20deg;
+    padding: 25px;
+    display: inline-flex;
+
+    margin: 50px;
+}
+
+.cite1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.dos{
+    /* border: solid 2px green; */
+    width: 500px;
+    height: 300px;
+    rotate: -10deg;
+    padding: 25px;
+    display: inline-flex;
+
+    /* margin: 50px; */
+}
+
+.cite2{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.sec2{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
+
+.tres{
+    /* border: solid 2px yellow; */
+    width: 500px;
+    height: 350px;
+    rotate: -25deg;
+    padding: 25px;
+    display: grid;
+    place-items: center;
+
+    /* margin: 50px; */
+}
+
+.cite3{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cuatro{
+    /* border: solid 2px purple; */
+    width: 500px;
+    height: 350px;
+    rotate: 20deg;
+    padding: 25px;
+    display: grid;
+    place-items: center;
+
+    /* margin: 50px; */
+}
+
+.cite4{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sec3{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
+
+.sec4{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
+
+.sec5{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
+
+.sec6{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
+
+.sec7{
+    /* border: dashed black 2px; */
+    display: inline-flex;
+}
